@@ -184,9 +184,10 @@
      /* 第二類商品 */
      .service .wrap{
         margin: 100px;
+        
      }
      .service .wrap .box{
-        margin: 10px;
+        margin: 100px;
     }
 
 /* -----------------------關於我們------------------------- */
