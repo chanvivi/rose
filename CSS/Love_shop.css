@@ -1,0 +1,804 @@
+
+/* -----------------------Home------------------------- */
+/* --Rose Story-- */
+.ad{
+    padding-top: 100px;
+}
+.ad .box{
+    display: flex;
+}
+/* 右文字 */
+.ad .text{
+    margin: auto;
+    width: 50%;
+}
+/* 右文字標題 */
+.ad h1:hover{
+    color: #666666;
+    transition: 0.5s;
+}
+/* 左圖 */
+.ad .wrap{
+    width: 40%;
+}
+.ad .box img{
+    width: 800px;
+}
+/* 隱藏圖片 */
+.ad .box .item2{
+    display: none;
+}
+.ad .box .item3{
+    display: none;
+}
+
+/* 本來想做輪播 */
+/* .owl-carousel{
+    content:'';
+    position: absolute;
+
+}
+.owl-carousel .item{
+    margin: auto;
+}
+.owl-carousel img{
+    width: 800px;
+} */
+
+
+/* 聯絡我們 */
+.ad .text .own{
+    margin-top: 50px;
+    width: 25%;
+    background-color:#8694a8;
+    box-shadow: 1px 1px 10px rgba(102, 98, 98, 0.2);
+}
+.ad .text .own p{
+    margin: auto;
+    color:whitesmoke;
+    text-align: center;
+}
+.ad .own:hover{
+    background-color: whitesmoke;
+    transition: 00.5s;
+}
+.ad .text .own p:hover{
+    color: #8694a8;
+    transition: 00.5s;
+}
+
+/* --top按鍵-- */
+
+.top{
+    padding-top: 100px;
+    padding-left: 90%;
+    margin: auto;
+    position: fixed;
+}
+.top img{
+    width: 40px;
+    padding: 10px;
+    background-color: rgb(226, 166, 166);
+    border-radius: 50%;
+    opacity: 0.95;
+    box-shadow: 1px 1px 2px #666666;
+}
+
+/* --玫瑰商品--*/
+.service{
+    margin: auto;
+}
+/* 第一類商品 *//*-- 精選商品-- */
+.service .goods{
+    height: 250px;
+}
+/* 商品 */
+.service .goods .min{
+    display: flex;
+    margin: auto;
+    margin: 10px;
+}
+.service .min .item{
+    margin: auto;
+}
+/* 文字對其 */
+.service .goods .min p{
+    padding-left: 20%;
+    margin: auto;
+}
+/* 精選商品 */
+.service .item h4{
+    padding-top: 10px;
+    text-align:left;
+    padding: 10px;
+    margin: 20px;
+    color: #666666;
+}
+.service.min{
+    margin: auto;
+}
+/* 按鈕圓形圖 */
+.service .pic{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+.service .min img{
+    width: 100px;
+    margin: 25px;
+    border-radius:50%;
+    transition: 00.5s;
+    box-shadow: 1px 1px 10px rgba(102, 98, 98, 0.2);
+}
+.service .min img:hover{
+    border-radius: 0px 0px 0px 0px;
+    transform : scale(1.2);
+    transition: 0.5s;
+}
+
+/* .service .buy-btn:hover{
+    color: #c579a5;
+    background-color: #f7f1f1;
+    transition: all ease 0.3s;
+} */
+
+/* 第二類商品 */
+.service .wrap{
+    margin: auto;
+    margin-top: 100px;
+}
+.service .box:nth-child(odd){
+    flex-direction: row-reverse;
+    background-color: #ece6e6;
+}
+.service .box{
+    margin: auto;
+    padding: 30px;
+    box-shadow: 1px 1px 10px rgba(102, 98, 98, 0.2);
+}
+.service .wrap .box{
+    width: 90%;
+    display: flex;
+
+}
+
+/* 文字部分 */
+.service .text{
+    margin: auto;    
+    width: 500px;
+    padding: 10px;
+}
+.service h3{
+    text-align: center;
+}
+.service .price{
+    margin: auto;
+    margin-top: 20px;
+    width: 100px;
+    text-align: center;
+    box-shadow: 1px 1px 10px rgba(102, 98, 98, 0.2);
+}
+.service .price:hover{
+    text-align: center;
+    transition: .2s;
+}
+.service .girlrose span{
+    color: #8694a8;
+}
+.service .star{
+    display: flex;
+    margin: auto;
+    width: 100px;
+    margin-top: 20px;
+}
+.service .star img{
+    width: 20px;
+}
+
+/* 左右邊的大照片 */
+.service img{
+    width:350px;
+    box-shadow: 1px 1px 10px rgba(102, 98, 98, 0.2);
+}
+.service img:hover{
+    transform : scale(1.1);
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+/*-- 內容_婚禮花藝 --*/
+.marry{
+    margin: auto;
+}
+.marry a{
+    text-decoration: none;
+}
+.marry .title{
+    padding-top: 50px;
+}
+.video{
+    margin: auto;
+    margin: 10px;
+}
+.video .text{
+    width: 60%;
+    text-align: center;
+}
+.marry .wrap{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    margin: auto;
+    padding-left: 100px;
+}
+.marry .rose img{
+    width: 280px;
+    padding: 10px;
+}
+.marry .card:hover{
+    opacity: 0.5;
+}
+.marry .card{
+    background-color: whitesmoke;
+    width: 300px;
+    /* border-radius: 10px; */
+    box-shadow: 1px 1px 10px rgba(102, 98, 98, 0.2);
+    margin: 20px;
+}
+.marry h3{
+    text-align: center;
+}
+.marry .col{
+    padding: 20px;
+}
+.marry p{
+    text-align: center;
+    line-height: 2.5em;
+}
+/* 不同風格婚禮 */
+.wedding{
+    /* display: flex; */
+    margin: auto;
+    margin: 30px;
+    padding-top: 100px;
+    position: relative;
+
+}
+.wedding .wrap{
+    margin-top: 50px;
+}
+.wedding .pic{
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+.wedding .part{
+margin: 30px;
+}
+.wedding .part img{
+    width: 500px;
+}
+.wedding .main{
+    /* margin: auto; */
+    margin: 20px;
+}
+.wedding .sub img{
+    width: 300px;
+    margin-top: 90px;
+    margin-left: 10px;
+}
+.wedding .item{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: -150px;
+}
+.wedding .item .text{
+    width: 400px;
+    text-align: center;
+}
+.wedding img{
+    border:solid 5px #d6c8c8;
+}
+.wedding .main img{
+    width: 550px;
+}
+/* 相簿 */
+.photo .text{
+    text-align: center;
+}
+#imgBoard{
+    width: 200px;
+    background:  #8694a8;
+    padding: 20px 30px;
+    text-align: center;
+    position: absolute;
+    top: 1000px;
+    left: -220px;
+}
+#imgBoard .text p{
+    color:rgb(73, 16, 16);
+}
+.myPhoto{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    box-shadow:1px 1px 1px #e2cece;
+}
+
+
+/* --客製花束--流程圖 */
+.cust{
+    padding:100px;
+    background:#e2cece url(https://as2.ftcdn.net/v2/jpg/01/52/88/29/1000_F_152882974_T1LFRvK6zxMsoHHt4muIVcQAPhkCM4kf.jpg) no-repeat center fixed;
+    background-size: 100% 100%;
+}
+.cust .box{
+    background-color: whitesmoke;
+    margin: auto;
+}
+.cust .wrap{
+    display: flex;
+}
+.cust p{
+    text-align: center;
+    line-height: 80px;
+}
+.cust .box img{
+    width: 100px;
+}
+.cust img{
+    padding:60px;
+    width: 100px;
+}
+/* --客製花束--圖片介紹 */
+.own{
+    margin: auto;
+    display: flex;
+    padding: 10px;
+   
+}
+.own .pic{
+    display: flex;
+    margin: auto;
+}
+.own img{
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+.own .picmax{
+    position: relative;
+    content: ;
+    top: 60px;
+}
+.own .pic{
+    padding: 60px;
+    text-align: center;
+}
+.own .pic img{
+    width: 400px;
+}
+.own .pic img:hover{
+    transform: scale(1.02);
+    transition: 00.5s;
+}
+.own .picc img:hover{
+    transform : scale(1.2);
+    transition: 0.5s;
+}
+.own .flowerrr img:hover{
+    transform: scale(1.5);
+}
+
+.own .flower img{
+    width: 100px;
+}
+.own .flowerr img{
+    padding-left: 80px;
+    width: 200px;
+}
+.own .flowerrr img{
+    width: 100px;
+}
+.own .text{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    padding: 50px;
+}
+.own .shop{
+    width: 150px;
+    margin: auto;
+    background-color: #8694a8;
+    margin-top: 20px;    
+}
+.own .shop p{
+    color:whitesmoke;
+}
+.own .shop:hover{
+    background-color: whitesmoke;
+    transition: 00.5s;
+}
+.own .shop p:hover{
+    color: #8694a8;
+    transition: 00.5s;
+}
+
+/*-- 地圖 --*/
+/*.map{
+    width: 100%;
+     background-color:#ece6e6; 
+}
+.map .wrap{
+    display: flex;
+}
+.map .text{
+    margin: auto;
+    line-height: 50px;
+    display: flex;
+}*/
+/* 地圖_圖 */
+/*.map .span{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.map .pic img{
+    margin: auto;
+    margin: 0px;
+    width: 500px;
+}
+.map .item{
+     置中 
+    margin: auto;
+}
+.map .fleurs img{
+    border-radius: 10px;
+}*/
+
+/*-------------------------Content_RoseStory -------------------------*/
+.story{
+    margin: auto;
+    padding-top: 70px;
+}
+/* --廣告-- */
+.story .wrap{ 
+    display: flex;
+    margin: auto;
+    padding: 5%;
+}
+.story .text{
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f7f1f1;
+}
+.story img:nth-child(even){
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+.story img:nth-child(odd){
+    max-width: 250px;
+}
+.story img{
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 30px;
+}
+.story .pic{
+    align-items: center;
+}
+/* --粉色-- */
+.story .bgg{
+    height: 200px;
+    background-color:  #c29797;;
+    color: #c29797;
+}
+/* --介紹-- */
+.about{
+    margin: auto;
+    padding: 10px;
+    margin: 30px;
+}
+/* 左大圖 */
+.about img{
+    margin: 50px;
+    width: 400px;
+    box-shadow: -20px -20px 0px #6666663b;
+}
+/* 文字 */
+.about .textt{
+    text-align: center;
+    width: 40%;
+    margin: auto;   
+}
+.about .textt h3{
+    line-height: 60px;
+}
+.about .textt p{
+    line-height: 40px;
+}
+
+/* ------------------------- Content_Rose------------------------- */
+
+.product{
+    margin: auto;
+    padding-top: 74px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product .box{
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    margin: 40px;
+    background-color: #ece6e6;
+    box-shadow: 1px 1px 1px #ece6e6;
+}
+.product .goods img{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+}
+.product .star img{
+    width: 15px;
+}
+.product .text{
+    text-align: center;
+}
+.product .box img:hover{
+    opacity: 0.5;
+}
+.product  a p{ 
+    margin: auto;
+    width: 90px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #8694a8;
+    color: whitesmoke;
+}
+.product h4{
+    line-height: 5px;
+}
+.product a p{
+    font-size: 16px;
+}
+.product span{
+    font-size: 16px;
+}
+.product  a p:hover{
+    background-color: whitesmoke;
+    transition: 00.5s;
+    color: #8694a8;
+}
+
+/* ------------------------- Content_Cust ------------------------- */
+
+.product .label{
+    display: flex;  
+    font-size: 12px;
+    margin: 15px;  
+    color: rgb(155, 152, 152);
+    
+}
+.product .label_a{
+    width: 40px;
+    border:1px solid #969696;
+    margin: 5px;
+    
+
+}
+.product .label_b{
+    width: 50px;
+    border:1px solid #969696;
+    margin: 5px;
+}
+
+.product .sale{
+    position: absolute;
+    top: 30px;
+    margin-top: -20px;
+    width: 40px;
+    background-color: #c579a5;  
+}
+.product .sale p{
+    font-size: 12px;
+    color: #f7f1f1;
+}
+.product .Selected p{
+    font-size: 16px;
+    color: #f7f1f1;
+}
+.product .Selected{
+    position: absolute;
+    top:70px;
+    margin-top: -40px;
+    width: 40px;
+    background-color: rgb(117, 164, 207);
+    color:#f7f1f1
+}
+
+/*------------------------- Content_Marry------------------------- */
+
+.video{
+ padding: 10px;
+ display: flex;
+}
+
+.video .video_marry{
+     margin: auto;
+}
+.video p{
+    line-height: 40px;
+    width: 80%;
+    margin: auto;
+}
+
+/* 標題 */
+.video_marry h2{
+    padding: 100px;
+}
+
+
+
+
+/* --婚禮花藝風格-- */
+
+
+
+/* --相冊-- */
+.photo{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo .box{
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+.photo .max img{
+    width: 400px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 20px;   
+}
+.photo .min img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+/* ------------------------- 內頁_玫瑰------------------------- */
+.rose_page {
+    margin: auto;
+    padding-top: 71px;
+    display: flex;
+}
+.rose_page .wrap{
+    text-align: center;
+    margin: auto;
+    margin: 20px;
+}
+.rose_page .item{
+    width: 800px;
+    margin-left: 30px;
+}
+.rose_page .addshop{
+    margin-top: 10px;
+}
+.rose_page .addheart{
+    padding-left: 10px;
+}
+.rose_page .star{
+    margin: auto;
+    width: 160px;
+}
+.rose_page .max img{
+    width: 415px;
+    height:500px;
+}
+.rose_page .min img{
+    width: 150px;
+    height:200px;
+}
+.rose_page .star img{
+    width: 20px;   
+}
+.rose_page .shop img{
+    width:30px;
+    padding-top: 10px;
+}
+.rose_page .heart img{
+    width: 30px;
+}
+.rose_page .box{
+    margin: 10px;
+}
+.rose_page .box p{
+    color: whitesmoke;
+    text-align: center;
+}
+.rose_page .box{
+    width: 350px;
+    margin: auto;
+    display: flex;
+}
+.rose_page .list{
+    width: 150px;
+    display: flex;
+    margin: 10px;
+    background-color: #8694a8;
+    align-items: center;
+    padding-left: 2px;
+}
+.rose_page .listt{
+    width: 150px;
+    display: flex;
+    margin: 10px;
+    background-color: #e079b2;
+    padding-left: 2px;
+    align-items: center;
+}
+.rose_page .pr{
+    margin: auto;
+    width: 160px;
+}
+/* 線條 */
+.rose_page .line{
+    width:95%;
+    height: 1px;
+    background-color: #d1caca;
+}
+.rose_page .item{
+    text-align: center;
+    margin: auto;
+}
+.rose_page .item p{
+    line-height: 50px;
+    text-align: center;
+}
+.article .box{
+    margin: auto;
+    width:90%;
+    text-align: center;
+}
+
+.article .line{
+    margin: auto;
+    width:90%;
+    height: 1px;
+    background-color: #d1caca;
+}
+.article h3{
+    text-align: center;
+}
+.article p{
+    line-height: 70px;
+}
+.article .linkgood{
+    display: flex;
+    margin: 10px;
+}
+.article .pic{
+    margin: auto;
+}
+.article .pic:hover{
+    opacity: 0.5;
+}
+.article .linkgood img{
+    width: 150px;
+    margin: auto;
+}
+.article .linkgood .star img{
+    width: 15px;
+    margin: auto;
+    padding:2px;
+}
+.article .pri p{
+    font-size: 20px;
+    text-align: center;
+    background-color:#e9e9e9;
+}

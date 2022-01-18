@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Tahoma","Microsoft JhengHei";
+}
+
+/* -------文字------- */
+
+body{
+    font-size: 20px; 
+    background-color: #e9e9e9; 
+}
+a{
+    text-decoration: none;
+}
+.bg{
+    background-color: #e9e9e9;
+}
+
+h1{
+	font-size:350%;
+	text-align:center;
+    /* (文字水平置中) */
+    color: rgb(155, 152, 152);
+    line-height:1.6;
+}
+h2{
+	font-size:1.5em;
+    text-align: center;
+    color: #666666;
+    line-height:1.6;
+    text-decoration: none;
+    margin-top: 100px;
+
+}
+h2:hover{
+    color: #444242;
+    transition: 0.5s;
+}
+h3{
+    color: #666666;
+    padding: 20px;
+    line-height:1.6;
+}
+h4{
+    color: #666666;
+    margin:10px ;
+}
+p{
+    color: #666666;
+	line-height:1.6;
+}
+
+/* -------標題------- */
+.price{
+    color: #ece6e6;
+    background-color: #8694a8;
+   
+
+}
+.price:hover{
+    width: 210px;
+    background-color: #ffffff;
+    color: #8694a8; 
+    transition: 0.5s;
+}
+.title{
+    padding: 25px;
+    text-align: center;
+    color:#666666;
+}
+.title_rose{
+    padding: 25px;
+}
+
+/* -------------------------導覽列--手機----------------------- */
+
+@media screen and (max-width:767px){ 
+    /* 文字 */
+    *{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    h4{
+        font-size: 1.05rem;
+    }
+    p{
+        font-size: 0.5em;
+    }
+/* 漢堡導覽列 */
+    .hb{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        margin: auto;
+        margin-left: 35%;
+        
+        }
+        .hb:before,
+        .hb:after{
+            content:'';
+            position: absolute;
+            width: 80%;
+            height: 4px;
+            background-color: rgb(92, 92, 87);
+            right: 0;
+            left: 0;
+            margin: auto;
+            transform:rotate(0deg);
+            border-radius: 50px;  
+        }
+        .hb:before{
+            top: 5px;
+            box-shadow: 0px 13px 0px rgb(92, 92, 87);
+            transition: box-shadow .3s .6s,
+                        top       .3s .3s,
+                        transform .3s .0s;             
+        }
+        .hb:after{ 
+            bottom: 5px;
+            transition: bottom  .3s .3s,
+                        transform .3s 0s;        
+        }
+        #menu-check:checked~.main-header .hb:before{
+            top: 18px;
+            box-shadow:0px 13px 0px #ff00;
+            transform:rotate(45deg);
+            transition: box-shadow .3s 0s,
+                        top       .3s .3s,
+                        transform .3s .6s;
+        }
+
+        #menu-check:checked~.main-header .hb:after{
+            top: 19px;
+            transform:rotate(-45deg);
+            transition: bottom    .3s .3s,
+                        transform .3s .6s;
+        }
+        
+        .main-nav{    /* 這裡只有手機需要 */
+            position: absolute;
+            width: 90%;
+            top: 100%;
+            left: -90px;
+            opacity: 0;
+            background-color:whitesmoke;
+        }            
+        #menu-check:checked~.main-header .main-nav{
+            opacity: 1;
+            left: 0;
+            transition: 1s;
+        }
+        .main-nav a{
+            display: block;
+        }
+        .main-header a +a{
+            border-top: 1px solid rgb(190, 182, 186);
+        } 
+        /* foot */
+        .foot{
+            margin: auto;
+        }
+        .foot .wrap{
+            margin: auto;
+        }
+        .foot .boxx{
+            display: none;
+        }
+
+}
+
+/* -------------------------導覽列--平板----------------------- */
+
+@media screen and (min-width:768px) {
+    .hb{
+        display: none;
+    }
+    .main-nav a{
+        display:inline-block;
+    }
+}
+
+/*------------------------- 導覽列------------------------- */
+
+.main-header{
+    width: 100%;
+    background-color:#ece6e6;
+    opacity:0.9;
+    box-shadow: 0px 0px 4px #f3f5f7; 
+    position: fixed;
+}
+.main-header .wrap{
+    display: flex;
+}
+#menu-check{
+    display: block;
+}
+.main-nav{
+    margin: auto;
+}
+/* --導覽列--logo */
+.main-header .logo{
+    padding: 10px;
+    display: flex;
+}
+.main-header .logo img{
+    width: 200px;
+}
+/* --導覽列--文字 */
+.main-header .span{
+    text-decoration: none;
+    color:#666666;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 20px;
+   
+}
+.main-header .span:hover{
+    background-color: #dfc1c1;
+    color:#fffdfd;
+    box-shadow: 1px 1px 5px rgb(209, 187, 187);
+    transition: 0.5s;
+}
+/* --導覽列--購物車 */
+.main-header .icon{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.main-header .icon img{
+    width: 60px;
+    border-radius: 50px;   
+}
+.main-header .icon img:hover{
+    background-color: #dfc1c1;
+    box-shadow: 1px 1px 5px rgb(209, 187, 187);
+    transition: 0.5s;
+}
+
+/*------------------------- 底下資訊------------------------- */
+
+.foot{
+    background-color: #272e3a;
+}
+.foot .wrap{
+    display: flex;
+    margin: auto;
+    padding: 30px;
+}
+.foot .box{
+    width: 300px;
+    text-align: center;
+} 
+.foot .boxx{
+    width: 300px;
+    text-align: center;
+}       
+.foot .pic img {
+    margin: auto;
+}
+.foot .pay{
+    display: flex;
+}
+.foot .pay img{
+    width: 50px;
+    padding: 10px;
+}
+.foot .paypal{
+    display: flex;
+}
+.foot .paypal img{
+    width: 200px;
+    display: flex;
+}
+.foot h4{
+    color:#ece6e6;
+}
+.foot p{
+    color: #ece6e6;
+    padding: 10px;
+    line-height: 30px;
+}

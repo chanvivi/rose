@@ -1,0 +1,18 @@
+td {
+	border-bottom:1px dotted deeppink;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+
+.prodImg{
+	width:50px;
+}
+
+.qtyBox {
+	width: 30px;
+	text-align: center;
+}
